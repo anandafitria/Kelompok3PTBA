@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TextViewe"
         android:layout_width="275dp"
         android:layout_height="37dp"
         android:layout_margin="10dp"
@@ -19,10 +19,11 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+        app:layout_constraintVertical_bias="0.022"
+        tools:ignore="DuplicateIds" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="80dp"
@@ -84,5 +85,4 @@
         app:srcCompat="@drawable/ic_logo_unand"
         tools:ignore="ImageContrastCheck" />
 
-
-
+</androidx.constraintlayout.widget.ConstraintLayout>
