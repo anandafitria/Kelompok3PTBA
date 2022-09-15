@@ -79,6 +79,7 @@
         android:width="200dp"
         android:background="@drawable/button_shape"
         android:fontFamily="@font/poppinssemibold"
+        android:onClick="dashboardOnClicked"
         android:paddingTop="5dp"
         android:text="Log In"
         android:textAlignment="center"
