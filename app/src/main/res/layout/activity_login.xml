@@ -32,7 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/txt_1"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/poppinsregular"
+        android:fontFamily="@font/poppinsmedium"
         android:text="Kerja Praktek Monitoring"
         android:textColor="@color/black"
         android:textSize="25sp" />
