@@ -1,9 +1,0 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="Theme.Kelompok3PTBA" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary_color</item>
-        <item name="colorSecondary">@color/secondary_color</item>
-        <item name="colorAccent">@color/white</item>
-        <item name="colorControlNormal">@color/black</item>
-        <item name="colorOutline">@color/hint</item>
-    </style>
-</resources>
