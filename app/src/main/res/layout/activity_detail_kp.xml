@@ -26,9 +26,8 @@
                 android:id="@+id/btn_home"
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                android:background="@color/primary_color"
                 android:contentDescription="@string/app_name"
-                android:onClick="onClickKP"
+                android:background="@color/primary_color"
                 app:srcCompat="@drawable/ic_baseline_home" />
 
             <ImageButton
@@ -36,10 +35,9 @@
                 android:layout_width="60dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@color/primary_color"
                 android:contentDescription="@string/btn_logbook"
+                android:background="@color/primary_color"
                 android:minHeight="48dp"
-                android:onClick="onClickDashboard"
                 app:srcCompat="@drawable/ic_baseline_calendar_month" />
 
             <ImageButton
@@ -82,6 +80,13 @@
             android:text="@string/kp_main"
             android:textColor="@color/black"
             android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/btn_back"
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:background="@color/primary_color"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_ios_new" />
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>
 

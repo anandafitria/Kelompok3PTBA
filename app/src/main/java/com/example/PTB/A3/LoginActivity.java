@@ -51,9 +51,4 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    public void dashboardOnClicked(View view) {
-        Intent dashboardOnClicked = new Intent(this, DashboardActivity.class);
-        startActivity(dashboardOnClicked);
-    }
-
 }
