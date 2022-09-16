@@ -5,4 +5,5 @@
     <color name="white">#FBFBFB</color>
     <color name="black">#050505</color>
     <color name="hint">#807D7D</color>
+    <color name="test">#000000</color>
 </resources>
