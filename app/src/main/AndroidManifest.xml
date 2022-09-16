@@ -14,10 +14,6 @@
         android:theme="@style/Theme.Kelompok3PTBA"
         tools:targetApi="31">
         <activity
-            android:name=".DetailKP"
-            android:exported="false" />
-        <activity
-            android:name=".DashboardActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
