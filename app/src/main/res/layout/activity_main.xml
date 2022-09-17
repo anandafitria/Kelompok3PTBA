@@ -28,7 +28,6 @@
                 android:layout_height="match_parent"
                 android:background="@color/primary_color"
                 android:contentDescription="@string/app_name"
-                android:onClick="onClickKP"
                 app:srcCompat="@drawable/ic_baseline_home" />
 
             <ImageButton
@@ -39,7 +38,6 @@
                 android:background="@color/primary_color"
                 android:contentDescription="@string/btn_logbook"
                 android:minHeight="48dp"
-                android:onClick="onClickDashboard"
                 app:srcCompat="@drawable/ic_baseline_calendar_month" />
 
             <ImageButton

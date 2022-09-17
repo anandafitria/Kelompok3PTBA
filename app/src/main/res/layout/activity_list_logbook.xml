@@ -19,7 +19,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.052"
-        app:srcCompat="@drawable/iconBack"
         tools:ignore="ImageContrastCheck" />
 
     <ImageView
@@ -32,7 +31,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.051"
-        app:srcCompat="@drawable/iconProfile"
         tools:ignore="ImageContrastCheck" />
 
     <TextView

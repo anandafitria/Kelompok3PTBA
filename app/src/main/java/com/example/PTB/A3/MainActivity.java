@@ -17,13 +17,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void onClickKP (View View){
-        Intent B = new Intent(this, DetailKP.class);
-        startActivity(B);
-    }
+
     public void onClickDashboard (View View){
         Intent A = new Intent(this, DashboardActivity.class);
         startActivity(A);
+    }
+    public void onClickLogbook (View View){
+        Intent B = new Intent(this, ListLogbook.class);
+        startActivity(B);
     }
 
 }
